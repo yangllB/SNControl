@@ -1,0 +1,6 @@
+framework module SNControl {
+  umbrella header "SNControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

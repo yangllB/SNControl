@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'SNControl_Example' do
+  pod 'SNControl', :path => '../'
+
+  target 'SNControl_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

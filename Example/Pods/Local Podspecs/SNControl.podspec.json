@@ -1,0 +1,23 @@
+{
+  "name": "SNControl",
+  "version": "0.1.0",
+  "summary": "A short description of SNControl.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "hhttps://github.com/yangllB/SNControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "leleyang": "yang_930907@163.com"
+  },
+  "source": {
+    "git": "https://github.com/yangllB/SNControl.git",
+    "tag": "0.1.0"
+  },
+  "vendored_frameworks": "SNControl/Frameworks/SNNetWorkControl.framework",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "SNControl/Classes/**/*"
+}
