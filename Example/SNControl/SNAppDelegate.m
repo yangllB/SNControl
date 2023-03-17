@@ -7,12 +7,18 @@
 //
 
 #import "SNAppDelegate.h"
-
+#import <SNNetWorkControl/SNNetWorkControl.h>
+#import "SNViewController.h"
 @implementation SNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[SNViewController alloc] init];
+    [self.window makeKeyAndVisible];
+    [[SNNetWorkManage sharedInstance] startWithAppId:@"appid"];
     return YES;
 }
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SNControl'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SNControl.'
+  s.summary          = '网络管控'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'leleyang' => 'yang_930907@163.com' }
   s.source           = { :git => 'https://github.com/yangllB/SNControl.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.frameworks = 'UIKit', "Foundation"
   s.vendored_frameworks = "SNControl/Frameworks/SNNetWorkControl.framework"
 
   s.ios.deployment_target = '11.0'
@@ -38,6 +39,5 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
