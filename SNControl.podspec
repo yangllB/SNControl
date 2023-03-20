@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'hhttps://github.com/yangllB/SNControl'
+  s.homepage         = 'https://github.com/yangllB/SNControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leleyang' => 'yang_930907@163.com' }
@@ -29,9 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.frameworks = 'UIKit', "Foundation"
   s.vendored_frameworks = "SNControl/Frameworks/SNNetWorkControl.framework"
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64', 'ENABLE_BITCODE' => 'NO' }
 
   s.ios.deployment_target = '11.0'
-
   s.source_files = 'SNControl/Classes/**/*'
   
   # s.resource_bundles = {

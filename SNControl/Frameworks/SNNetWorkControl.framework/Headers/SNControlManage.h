@@ -1,18 +1,17 @@
 //
-//  SNNetWorkManage.h
+//  SNControlManage.h
 //  SNNetWorkControl
 //
-//  Created by mac on 2023/3/8.
+//  Created by mac on 2023/3/17.
 //
 
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SNNetWorkManage : NSObject
+@interface SNControlManage : NSObject
 
 +(instancetype)sharedInstance;
-
 /**
  *  初始化SNNetWork
  *

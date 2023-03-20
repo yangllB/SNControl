@@ -4,13 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/SNControlManage.h</key>
+		<data>
+		1VUHx2NPpiBuRxXYcxg9AL2mPnc=
+		</data>
 		<key>Headers/SNNetWorkControl.h</key>
 		<data>
-		uzFrMImlKJ8mK+Ryas5Dk/+NG3s=
-		</data>
-		<key>Headers/SNNetWorkManage.h</key>
-		<data>
-		nxnXwQdj4lpiagACd8Izt0+GBz0=
+		Zt7kDIKsd5/WY4s9r+Gxh++YXNg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -23,26 +23,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/SNControlManage.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1VUHx2NPpiBuRxXYcxg9AL2mPnc=
+			</data>
+			<key>hash2</key>
+			<data>
+			+VCEQhDstJNSh9L5QBRBc7UHflz94o4yyceCQzv5qbs=
+			</data>
+		</dict>
 		<key>Headers/SNNetWorkControl.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uzFrMImlKJ8mK+Ryas5Dk/+NG3s=
+			Zt7kDIKsd5/WY4s9r+Gxh++YXNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			6oHv9zPGWC84MJaZdfOZI5VTMpB4eocSRFXso+HE6o0=
-			</data>
-		</dict>
-		<key>Headers/SNNetWorkManage.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nxnXwQdj4lpiagACd8Izt0+GBz0=
-			</data>
-			<key>hash2</key>
-			<data>
-			fstth4H5Mljmw5AV/GlBeOLhaf2L0tGQsJPFZv6H/bQ=
+			CdF7kH8qIG1AqK4YHnjRfsoNP4QQhO3pwLY6c1d0NlM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

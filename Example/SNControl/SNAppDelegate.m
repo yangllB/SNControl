@@ -18,7 +18,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[SNViewController alloc] init];
     [self.window makeKeyAndVisible];
-    [[SNNetWorkManage sharedInstance] startWithAppId:@"appid"];
+    [[SNControlManage sharedInstance] startWithAppId:@"appid"];
     return YES;
 }
 
