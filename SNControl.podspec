@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64', 'ENABLE_BITCODE' => 'NO' }
 
   s.ios.deployment_target = '11.0'
-  s.source_files = 'SNControl/Classes/**/*'
+  # s.source_files = 'SNControl/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SNControl' => ['SNControl/Assets/*.png']
