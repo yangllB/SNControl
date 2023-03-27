@@ -1,6 +1,6 @@
 {
   "name": "SNControl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "网络管控",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yangllB/SNControl",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yangllB/SNControl.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "frameworks": [
     "UIKit",
@@ -27,5 +27,9 @@
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "SNControl/Classes/**/*"
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
 }

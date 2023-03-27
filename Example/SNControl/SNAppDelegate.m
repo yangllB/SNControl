@@ -8,6 +8,7 @@
 
 #import "SNAppDelegate.h"
 #import <SNNetWorkControl/SNNetWorkControl.h>
+
 #import "SNViewController.h"
 @implementation SNAppDelegate
 
@@ -19,7 +20,35 @@
     self.window.rootViewController = [[SNViewController alloc] init];
     [self.window makeKeyAndVisible];
     [[SNControlManage sharedInstance] startWithAppId:@"appid"];
+    NSString * newStr = @"测试SM4加密数据";
+    NSString * key = [self hexStringFromString:@"wondersoft--2022"];
+    NSData * ecStr = [MISPSm4Utils ecbEncryptData:[newStr dataUsingEncoding:NSUTF8StringEncoding] key:key];
+    NSString * ecStr1 = [MISPSm4Utils ecbEncryptText:newStr key:key];
+    NSData * ecStrData = [MISPUtils base64Decode:ecStr1];
+
+    NSLog(@"ecStrHX:%@",ecStrData);
+    
+    NSString * decStr = [MISPSm4Utils ecbDecryptText:[MISPUtils dataToHex:ecStrData] key:key];
+//    NSString * decStr = [[NSString alloc]initWithData:decData encoding:NSUTF8StringEncoding];
+    
+    NSLog(@"decStrHX:%@",decStr);
+
     return YES;
+}
+
+- (NSString *)hexStringFromString:(NSString *)string{
+    NSData *myD = [string dataUsingEncoding:NSUTF8StringEncoding];
+    Byte *bytes = (Byte *)[myD bytes];
+    //下面是Byte 转换为16进制。
+    NSString *hexStr=@"";
+    for(int i=0;i<[myD length];i++) {
+        NSString *newHexStr = [NSString stringWithFormat:@"%x",bytes[i]&0xff];///16进制数
+        if([newHexStr length]==1)
+        hexStr = [NSString stringWithFormat:@"%@0%@",hexStr,newHexStr];
+        else
+        hexStr = [NSString stringWithFormat:@"%@%@",hexStr,newHexStr];
+    }
+    return  hexStr;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
