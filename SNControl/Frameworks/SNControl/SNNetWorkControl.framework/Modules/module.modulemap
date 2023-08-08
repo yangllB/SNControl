@@ -1,0 +1,6 @@
+framework module SNNetWorkControl {
+  umbrella header "SNNetWorkControl.h"
+
+  export *
+  module * { export * }
+}
