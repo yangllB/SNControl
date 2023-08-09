@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNControl'
-  s.version          = '0.1.2'
+  s.version          = '0.1.5'
   s.summary          = '网络管控'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
   # s.source_files = 'SNControl/Classes/**/*'
-  
+  s.resource = 'SNControl/Assets/SNControl.bundle'
   # s.resource_bundles = {
   #   'SNControl' => ['SNControl/Assets/*.png']
   # }
