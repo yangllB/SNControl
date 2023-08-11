@@ -5,7 +5,7 @@
 //  Created by mac on 2023/3/31.
 //
 
-#import "JSONModel.h"
+#import <JSONModel.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, SNFileType) {
