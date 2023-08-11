@@ -4,26 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/MISP.h</key>
-		<data>
-		yqRPMQpYnGoIa9tsOFy/0oGaGxs=
-		</data>
-		<key>Headers/MISPHelper.h</key>
-		<data>
-		h+Pv+0Z9N1BARRUVl+F++M5CdqU=
-		</data>
-		<key>Headers/MISPSm4Utils.h</key>
-		<data>
-		X8UvW+1ATbsJxVK7yUyVDyDhg3I=
-		</data>
-		<key>Headers/MISPUtils.h</key>
-		<data>
-		PIIRFmKfbKM9bGv82JeR8Dxm8UQ=
-		</data>
-		<key>Headers/NSData+CryptoEmail.h</key>
-		<data>
-		VWhwYTV1hjttXqN+BLD8MdAuTzc=
-		</data>
 		<key>Headers/NSString+SNSecure.h</key>
 		<data>
 		0MyDSt3YyQd1936Iv2yPn9njvXI=
@@ -36,9 +16,17 @@
 		<data>
 		hmchL0tH+VXKPwmG/hf4BKtJ+aY=
 		</data>
+		<key>Headers/SNFileManager.h</key>
+		<data>
+		mqDSAnIWsCU5MsdDQwC+RQk4TP8=
+		</data>
+		<key>Headers/SNFileModel.h</key>
+		<data>
+		1fOAP6lerSiwQlbrJIxTI80Kwbg=
+		</data>
 		<key>Headers/SNNetWorkControl.h</key>
 		<data>
-		rOzIdxTuEKQ8TNDU4+IwY7Z9h04=
+		kttZe9sc/o6iypYX9FvCtWzLzxk=
 		</data>
 		<key>Headers/SNOAuth.h</key>
 		<data>
@@ -128,61 +116,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MISP.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yqRPMQpYnGoIa9tsOFy/0oGaGxs=
-			</data>
-			<key>hash2</key>
-			<data>
-			i27pigX1A9aIRg+CGbnBkld8Qd3gJLNvNNNS+BFllBg=
-			</data>
-		</dict>
-		<key>Headers/MISPHelper.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			h+Pv+0Z9N1BARRUVl+F++M5CdqU=
-			</data>
-			<key>hash2</key>
-			<data>
-			YfEHLPLcNHzRs2mv5FVfudsNUzg5GyH/YzZbrmTwIdE=
-			</data>
-		</dict>
-		<key>Headers/MISPSm4Utils.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			X8UvW+1ATbsJxVK7yUyVDyDhg3I=
-			</data>
-			<key>hash2</key>
-			<data>
-			fxATy8OzUhp5FgylW7Ty27yYXs/FiOU8WHG8bsQO9kQ=
-			</data>
-		</dict>
-		<key>Headers/MISPUtils.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PIIRFmKfbKM9bGv82JeR8Dxm8UQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			MidSlUh15mTlkA/GHyHkkv5tpwVJAJSFVngDgsqIfDw=
-			</data>
-		</dict>
-		<key>Headers/NSData+CryptoEmail.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VWhwYTV1hjttXqN+BLD8MdAuTzc=
-			</data>
-			<key>hash2</key>
-			<data>
-			DOEYEco59sZcPeVlVHJzFL2gRu2cPKfN9QoEvgQl5Ac=
-			</data>
-		</dict>
 		<key>Headers/NSString+SNSecure.h</key>
 		<dict>
 			<key>hash</key>
@@ -216,15 +149,37 @@
 			S5E/ZMD+jNHC9XIqHb6oPkCaMCjgs+V+lTiiMv6KG3s=
 			</data>
 		</dict>
+		<key>Headers/SNFileManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mqDSAnIWsCU5MsdDQwC+RQk4TP8=
+			</data>
+			<key>hash2</key>
+			<data>
+			IB7H4aWHn3yNm722xjxpWm2D5vaCqST/GsKR4M2XAKo=
+			</data>
+		</dict>
+		<key>Headers/SNFileModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1fOAP6lerSiwQlbrJIxTI80Kwbg=
+			</data>
+			<key>hash2</key>
+			<data>
+			dlT6o3ibYbLtRIXS7d+xm65WShO8qG9Z8RC68mr2d9g=
+			</data>
+		</dict>
 		<key>Headers/SNNetWorkControl.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rOzIdxTuEKQ8TNDU4+IwY7Z9h04=
+			kttZe9sc/o6iypYX9FvCtWzLzxk=
 			</data>
 			<key>hash2</key>
 			<data>
-			eR3VSkdJbb4okp+1YzUZWXXgE0cS1oIJ1kDN7JwZ/DI=
+			9KYn928bLN0W1SvIXA2nezxBG+NH8F6JNnbIYgD4iBY=
 			</data>
 		</dict>
 		<key>Headers/SNOAuth.h</key>
