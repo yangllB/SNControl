@@ -5,7 +5,7 @@
 //  Created by mac on 2023/3/31.
 //
 
-#import <JSONModel.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSInteger, SNFileType) {
@@ -37,7 +37,7 @@ typedef NS_ENUM(NSInteger, SNFileType) {
     
 };
 
-@interface SNFileModel : JSONModel
+@interface SNFileModel : NSObject
 
 //文件路径
 @property (copy, nonatomic) NSString *filePath; ///< 全路径
