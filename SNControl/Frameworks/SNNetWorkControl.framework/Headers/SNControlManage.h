@@ -16,8 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  初始化SNNetWork
  *
  *  @param appId 注册SNNetWork分配的应用唯一标识
+ *  @param universalLink 开发者Universal Link
  */
-- (void)startWithAppId:(NSString * )appId;
+- (void)startWithAppId:(NSString * )appId universalLink:(NSString *)universalLink;
 
 
 -(void)initOAuth;
