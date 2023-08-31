@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SNControl'
-  s.version          = '0.1.10'
+  s.version          = '0.1.12'
   s.summary          = '网络管控'
 
 # This description is used to generate tags and improve search results.

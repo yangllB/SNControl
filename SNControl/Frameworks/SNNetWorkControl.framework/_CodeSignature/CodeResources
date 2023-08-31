@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/AuthorizedLoginViewController.h</key>
+		<data>
+		Wl47pari/9tRK4TugG4n3etxzwg=
+		</data>
 		<key>Headers/NSString+SNSecure.h</key>
 		<data>
 		0MyDSt3YyQd1936Iv2yPn9njvXI=
 		</data>
 		<key>Headers/SNAccreditLoginView.h</key>
 		<data>
-		mc0XodsS0jhYRpnjvZYKXpRroH8=
+		o8o5lKHWckUTMcYl07RVwOvjCME=
 		</data>
 		<key>Headers/SNControlManage.h</key>
 		<data>
@@ -56,6 +60,10 @@
 		<data>
 		/KdmfmOu3ur65FvhVBjkWbMJ01M=
 		</data>
+		<key>SNControl.bundle/baseBtn_bgimage@2x.png</key>
+		<data>
+		6+WO9B45G9ttgWEfoIDtJXfiypM=
+		</data>
 		<key>SNControl.bundle/bigIcon@3x.png</key>
 		<data>
 		/TU7bAWrxn2sGXUYWNzYGjyQJLg=
@@ -77,6 +85,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>SNControl.bundle/login_topback@2x.png</key>
+		<data>
+		Yl50jpw/Qe5fdYIIEFOzgw3szWQ=
+		</data>
 		<key>SNControl.bundle/rootBlock_wx@2x.png</key>
 		<data>
 		PeBIyXBKPg/AEiLFg+B66VXjbFw=
@@ -116,6 +128,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/AuthorizedLoginViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Wl47pari/9tRK4TugG4n3etxzwg=
+			</data>
+			<key>hash2</key>
+			<data>
+			dDY8zI2dphsGn+Urni8g+Ej6fWp56FFkeAtXHEdFbDw=
+			</data>
+		</dict>
 		<key>Headers/NSString+SNSecure.h</key>
 		<dict>
 			<key>hash</key>
@@ -131,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mc0XodsS0jhYRpnjvZYKXpRroH8=
+			o8o5lKHWckUTMcYl07RVwOvjCME=
 			</data>
 			<key>hash2</key>
 			<data>
-			0ToJi7d1EpWK2ztzs2qzFDEGQWVUltltxpPyK3wGnk4=
+			V2z+5Hy9PR8QK4Hjcv9/fz+C9UTSYFJJcNQSRw4Iw4M=
 			</data>
 		</dict>
 		<key>Headers/SNControlManage.h</key>
@@ -248,6 +271,17 @@
 			Jr54kd8oK6AbUgYvihe0FZTf1OA7pP/S1PD39rDIrss=
 			</data>
 		</dict>
+		<key>SNControl.bundle/baseBtn_bgimage@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6+WO9B45G9ttgWEfoIDtJXfiypM=
+			</data>
+			<key>hash2</key>
+			<data>
+			qIa0OEAoq8VmWeGiISBb+f01Zi1t+FDgs1Xb9UU1qCg=
+			</data>
+		</dict>
 		<key>SNControl.bundle/bigIcon@3x.png</key>
 		<dict>
 			<key>hash</key>
@@ -293,6 +327,17 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>SNControl.bundle/login_topback@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Yl50jpw/Qe5fdYIIEFOzgw3szWQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			J9p4wx3LokdTdxzZbWjGs+WJYmAv4eQktiL44c+mzuU=
+			</data>
 		</dict>
 		<key>SNControl.bundle/rootBlock_wx@2x.png</key>
 		<dict>

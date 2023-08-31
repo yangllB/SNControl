@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  *\param callback 授权回调
  *
  */
-- (void)authorizeLocalApp:(callback)callback;
+- (void)authorizeLocalAppSuperVC:(UIViewController *)SuperVC callback:(callback)callback;
 
 @end
 
