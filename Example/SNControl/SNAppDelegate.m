@@ -19,19 +19,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[SNViewController alloc] init];
     [self.window makeKeyAndVisible];
-    [[SNControlManage sharedInstance] startWithAppId:@"appid"];
-    NSString * newStr = @"测试SM4加密数据";
-    NSString * key = [self hexStringFromString:@"wondersoft--2022"];
-    NSData * ecStr = [MISPSm4Utils ecbEncryptData:[newStr dataUsingEncoding:NSUTF8StringEncoding] key:key];
-    NSString * ecStr1 = [MISPSm4Utils ecbEncryptText:newStr key:key];
-    NSData * ecStrData = [MISPUtils base64Decode:ecStr1];
-
-    NSLog(@"ecStrHX:%@",ecStrData);
-    
-    NSString * decStr = [MISPSm4Utils ecbDecryptText:[MISPUtils dataToHex:ecStrData] key:key];
-//    NSString * decStr = [[NSString alloc]initWithData:decData encoding:NSUTF8StringEncoding];
-    
-    NSLog(@"decStrHX:%@",decStr);
+   
 
     return YES;
 }
